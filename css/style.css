@@ -1,0 +1,52 @@
+/*GLOBAL*/
+.container{
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 2rem 0rem;
+    border: none;
+    width: 90%;
+    height: 4rem;
+    display: block;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: floralwhite;
+}
+
+button:active{
+    background-color: rgb(32, 89, 224);
+}
+
+.btn-grabar{
+    background-color: tomato;
+}
+
+input{
+    padding: 1rem 0rem;
+    width: 90%;
+    height: 2rem;
+    display: block;
+    border: 0;
+    border-bottom: 2px solid dodgerblue;
+    outline: 0;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+/*MODO RESPONSIVE*/
+
+/*Mobile Site*/
+@media screen and (min-width: 320px) {
+    .btn{
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+}
